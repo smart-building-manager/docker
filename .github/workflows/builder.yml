@@ -83,7 +83,7 @@ jobs:
         run: echo "BUILD_ARGS=--test" >> $GITHUB_ENV
 
       - name: Build base image
-        uses: my-smart-homes/builder
+        uses: my-smart-homes/builder:latest
         with:
           args: |
             $BUILD_ARGS \
