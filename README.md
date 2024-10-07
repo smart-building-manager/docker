@@ -1,10 +1,11 @@
-
 # Docker
+
 Home Assistant containers
 
 Base Images:
-- homeassistant/aarch64-homeassistant-base:_BASE-VERSION_
-- homeassistant/amd64-homeassistant-base:_BASE-VERSION_
-- homeassistant/armhf-homeassistant-base:_BASE-VERSION_
-- homeassistant/armv7-homeassistant-base:_BASE-VERSION_
-- homeassistant/i386-homeassistant-base:_BASE-VERSION_
+
+- my-smart-homes/aarch64-my-smart-homes-base:_BASE-VERSION_
+- my-smart-homes/amd64-my-smart-homes-base:_BASE-VERSION_
+- my-smart-homes/armhf-my-smart-homes-base:_BASE-VERSION_
+- my-smart-homes/armv7-my-smart-homes-base:_BASE-VERSION_
+- my-smart-homes/i386-my-smart-homes-base:_BASE-VERSION_
