@@ -83,11 +83,10 @@ jobs:
         run: echo "BUILD_ARGS=--test" >> $GITHUB_ENV
 
       - name: Build base image
-        uses: home-assistant/builder@2024.08.2
+        uses: my-smart-homes/builder
         with:
           args: |
             $BUILD_ARGS \
             --${{ matrix.arch }} \
             --target /data \
-            --cosign \
             --generic ${{ needs.init.outputs.version }}
