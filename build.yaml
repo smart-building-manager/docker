@@ -1,4 +1,4 @@
-image: ghcr.io/my-smart-homes/{arch}-my-smart-homes-base
+image: ghcr.io/smart-building-manager/{arch}-smart-building-manager-base
 build_from:
   aarch64: ghcr.io/home-assistant/aarch64-base-python:3.12-alpine3.20
   armhf: ghcr.io/home-assistant/armhf-base-python:3.12-alpine3.20
@@ -12,7 +12,7 @@ codenotary:
 #   base_identity: https://github.com/home-assistant/docker-base/.*
 #   identity: https://github.com/home-assistant/docker/.*
 labels:
-  io.hass.type: my-smart-homes-base
+  io.hass.type: smart-building-manager
   org.opencontainers.image.title: Home Assistant Core baseimage
   org.opencontainers.image.description: Baseimage for Home Assistant Core container/supervisor installation
   org.opencontainers.image.source: https://github.com/home-assistant/docker
